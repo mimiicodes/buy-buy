@@ -1,0 +1,43 @@
+.hero{
+    background-color: #e0121f;
+    min-height: calc(100vh - 80px);
+    font-size: calc(5px + 2vmin);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    &-image-div{
+        width: 40%;
+    }
+    &-image{
+        width: 100%;
+    }
+    &-texts{
+        width: 30%;
+    }
+    &-btn{
+        padding: 10px 20px;
+        background-color: #574aa3;
+        color: #fff;
+        border-radius: 4px;
+        outline: none;
+        text-decoration: none;
+        border: none;
+        font-weight: bolder;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .hero{
+        &-image-div{
+            width: 90%;
+        }
+        &-image{
+            width: 100%;
+        }
+        &-texts{
+            width: 90%;
+        }
+    }
+}

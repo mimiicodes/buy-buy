@@ -1,0 +1,27 @@
+.nav{
+    background-color: white;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    z-index: 99;
+    position: sticky;
+    padding: 0px 40px;
+}
+.navlink{
+    color: #e0121f;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brand-name{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.cartlink{
+    font-size: 30px;
+    font-weight: bold;
+}
